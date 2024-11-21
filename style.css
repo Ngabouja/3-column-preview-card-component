@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.Contenaire {
+	display: flex;
+	flex-direction: column;
+}
+
+.Menu-1 {
+	display: flex;
+	flex-direction: column;
+	background-color: #e28625;
+	height: 100vh;
+	justify-content: space-evenly;
+	color: white;
+}
+.Menu-2 {
+	display: flex;
+	flex-direction: column;
+	background-color: #006971;
+	height: 100vh;
+	justify-content: space-evenly;
+	color: white;
+}
+.Menu-3 {
+	display: flex;
+	flex-direction: column;
+	background-color: #004140;
+	height: 100vh;
+	justify-content: space-evenly;
+	color: white;
+}
+.icon {
+	margin: 30px;
+}
+h1 {
+	font-size: 3rem;
+	margin-top: 50px;
+}
+p {
+	font-size: 1.7rem;
+	margin: 30px;
+}
+button {
+	background-color: #f2f2f2;
+	border-radius: 10000000000000000000000000000px;
+	border: none;
+	font-size: 1.5rem;
+	margin: 30px;
+	padding: 9px;
+}
+.Orange {
+	color: #e28625;
+}
+.bleu {
+	color: #006971;
+}
+.vert {
+	color: #004140;
+}
+button:hover {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+}
+
+@media screen and (min-width: 320px) {
+	.Contenaire {
+		display: flex;
+		flex-direction: row;
+	}
+}
